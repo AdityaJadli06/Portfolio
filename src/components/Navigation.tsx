@@ -65,7 +65,7 @@ export default function Navigation({ darkMode, setDarkMode }: NavigationProps) {
                   : 'border-black'
               }`}>
                 <ImageWithFallback
-                  src="https://media.licdn.com/dms/image/v2/D5603AQG4jWGI6pTo5Q/profile-displayphoto-scale_400_400/B56ZqnOy5BIYAg-/0/1763742267584?e=1772668800&v=beta&t=M9ZzMHjcEPoDffXwPTBwZ9NpPNwnTc63YThb9RDlH0k"
+                  src="https://media.licdn.com/dms/image/v2/D5603AQG4jWGI6pTo5Q/profile-displayphoto-crop_800_800/B56ZqnOy5BIYAI-/0/1763742267315?e=1779321600&v=beta&t=JspNWG5vvxfHumCWPtJuMn8CRlemV1V_D2rjhdqjT74"
                   alt="Aditya Jadli"
                   className="w-full h-full object-cover"
                 />
