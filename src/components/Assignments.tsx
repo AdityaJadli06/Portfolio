@@ -15,6 +15,9 @@ interface Assignment {
 }
 
 export default function Assignments({ darkMode }: AssignmentsProps) {
+  const assignment2Link = new URL('../assignments/Assignment-2.pdf', import.meta.url).href;
+  const assignment3Link = new URL('../assignments/Assignment-3.jpeg', import.meta.url).href;
+
   const [assignments, setAssignments] = useState<Assignment[]>([
     {
       id: '1',
@@ -22,6 +25,22 @@ export default function Assignments({ darkMode }: AssignmentsProps) {
       course: 'PESE',
       description: 'Profiling Sheet',
       downloadLink: 'https://drive.google.com/file/d/1drLKekKRFC0Rb0sJgELvwaEKC764zLso/view?usp=sharing',
+      hasScreenshots: false
+    },
+    {
+      id: '2',
+      title: 'Assignment-2',
+      course: 'PESE',
+      description: 'Group Presentation',
+      downloadLink: assignment2Link,
+      hasScreenshots: false
+    },
+    {
+      id: '3',
+      title: 'Assignment-3',
+      course: 'PESE',
+      description: 'Cover Letter',
+      downloadLink: assignment3Link,
       hasScreenshots: false
     }
   ]);
