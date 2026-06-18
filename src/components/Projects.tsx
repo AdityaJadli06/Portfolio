@@ -46,6 +46,32 @@ export default function Projects({ darkMode }: ProjectsProps) {
       ],
       githubLink: 'https://github.com/AdityaJadli06/Portfolio.git',
       liveLink: '#'
+    },
+    {
+      title: 'AI VS Real Images',
+      category: 'AI/ML',
+      description: 'An intelligent deep learning application that distinguishes between AI-generated and authentic images. Uses advanced CNN algorithms to combat deepfakes and misinformation.',
+      technologies: ['Python', 'CNN', 'MobileNet', 'Streamlit'],
+      contributions: [
+        'Built and trained MobileNet CNN model for image classification',
+        'Developed Streamlit web interface for user interaction',
+        'Integrated end-to-end deep learning pipeline'
+      ],
+      githubLink: 'https://github.com/AdityaJadli06/AiVSReal_images.git',
+      liveLink: null
+    },
+    {
+      title: 'Snap2Notes - AI-Powered Note-Generating App',
+      category: 'App Development',
+      description: 'A Flutter mobile app that captures images and automatically converts them into organized notes using Google OCR technology. Leverages AWS Lambda for scalable backend processing and AWS database for efficient data management.',
+      technologies: ['Flutter', 'Google OCR', 'AWS Lambda', 'AWS Database'],
+      contributions: [
+        'Built responsive Flutter mobile frontend with intuitive UI',
+        'Integrated Google OCR API for text extraction from images',
+        'Designed AWS Lambda functions for scalable backend processing'
+      ],
+      githubLink: 'https://github.com/AdityaJadli06/Snap2Code.git',
+      liveLink: null
     }
     ];
 
