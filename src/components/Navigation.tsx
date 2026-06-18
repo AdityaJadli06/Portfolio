@@ -1,6 +1,7 @@
 import { Moon, Sun, Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import imgUrl from '../img.png';
 
 interface NavigationProps {
   darkMode: boolean;
@@ -65,7 +66,7 @@ export default function Navigation({ darkMode, setDarkMode }: NavigationProps) {
                   : 'border-black'
               }`}>
                 <ImageWithFallback
-                  src="../img.png"
+                  src={imgUrl}
                   alt="Aditya Jadli"
                   className="w-full h-full object-cover"
                 />
