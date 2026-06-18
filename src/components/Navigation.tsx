@@ -27,7 +27,6 @@ export default function Navigation({ darkMode, setDarkMode }: NavigationProps) {
     'Projects',
     'Experience',
     'Certifications',
-    'Assignments',
     'Education',
     'Contact'
   ];
