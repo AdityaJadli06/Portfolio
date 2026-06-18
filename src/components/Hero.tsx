@@ -1,5 +1,6 @@
 import { ArrowDown } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import imgUrl from '../img.png';
 
 interface HeroProps {
   darkMode: boolean;
@@ -29,7 +30,7 @@ export default function Hero({ darkMode }: HeroProps) {
               darkMode ? 'border-white/30' : 'border-black/30'
             }`}>
               <ImageWithFallback
-                src="https://media.licdn.com/dms/image/v2/D5603AQG4jWGI6pTo5Q/profile-displayphoto-scale_200_200/B56ZqnOy5BIYAY-/0/1763742267584?e=1779321600&v=beta&t=3flOVA5RqwJr4Mc3-1DEBjU25fwR_4JMi1cKinUZ1z0"
+                src={imgUrl}
                 alt="Aditya Jadli"
                 className="w-full h-full object-cover"
               />
