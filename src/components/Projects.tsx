@@ -44,7 +44,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
         'Designed clean UI/UX',
         'Ensured full mobile responsiveness'
       ],
-      githubLink: '#',
+      githubLink: 'https://github.com/AdityaJadli06/Portfolio.git',
       liveLink: '#'
     }
     ];
