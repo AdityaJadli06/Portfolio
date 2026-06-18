@@ -1,4 +1,11 @@
 import { ExternalLink } from 'lucide-react';
+import CourseraCert from './Coursera AXKIHX6ZU76E.pdf';
+import GoogleFacilitator from './FACILITATOR.jpg';
+import Freshers from './Freshers2025.jpg';
+import Grafest from './Grafest2025.jpg';
+import HackOHolic from './HackOHolic.pdf';
+import SAARTHI from './SAARTHI2025.jpg';
+import TechSprint from './Tech-Sprint.pdf';
 
 interface CertificationsProps {
   darkMode: boolean;
@@ -7,22 +14,46 @@ interface CertificationsProps {
 export default function Certifications({ darkMode }: CertificationsProps) {
   const certifications = [
     {
-      title: 'Supervised Machine Learning: Regression and Classification',
-      organization: 'Coursera / Stanford University',
-      date: 'December 2025',
-      credentialLink: 'https://drive.google.com/file/d/1AMTBsNtDbM8Y2YFrF5vK4KFQyGBACpV8/view?usp=drive_link'
+      title: 'Hack-O-Holic 3.0',
+      organization: 'Co-Dev',
+      date: 'June 2025',
+      credentialLink: HackOHolic
     },
     {
-      title: "SAARTHI'25",
+      title: 'Btech Induction 2025',
+      organization: 'Graphic Era Hill University',
+      date: 'August 2025',
+      credentialLink: Freshers
+    },
+    {
+      title: "Google Facilitator'25 Mentor",
+      organization: 'Google Cloud',
+      date: 'August 2025',
+      credentialLink: GoogleFacilitator
+    },
+    {
+      title: 'Student Grafest 2025',
+      organization: 'Graphic Era Hill University',
+      date: 'October 2025',
+      credentialLink: Grafest
+    },
+    {
+      title: 'Tech Sprint',
+      organization: 'Graphic Era Hill University',
+      date: 'October 2025',
+      credentialLink: TechSprint
+    },
+    {
+      title: 'SAARTHI 2025',
       organization: 'Graphic Era Hill University',
       date: 'November 2025',
-      credentialLink: 'https://drive.google.com/file/d/1UXyRkHlrB7z6vNBgmnc4x_a7Tk4rvwpA/view?usp=drive_link'
+      credentialLink: SAARTHI
     },
     {
-      title: 'TechSprint',
-      organization: 'Graphic Era Deemend University',
-      date: 'October 2025',
-      credentialLink: 'https://drive.google.com/file/d/1WV5vF-tDLWdUIm6fdVCqLSMLnaYuZMzR/view?usp=drive_link'
+      title: 'Supervised Machine Learning: Regression and Classification',
+      organization: 'Stanford University (Coursera)',
+      date: 'December 2025',
+      credentialLink: CourseraCert
     }
   ];
 
